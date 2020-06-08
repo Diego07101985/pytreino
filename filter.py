@@ -11,7 +11,6 @@ def filtra(produto):
 
 nova_lista = filter(filtra, produtos)
 # nova_lista = [x for x in lista if x > 5]
-
 for produto in nova_lista:
     print(produto)
 
