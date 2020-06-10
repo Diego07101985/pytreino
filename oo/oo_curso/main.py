@@ -1,5 +1,6 @@
 from model import Pessoa
 
+
 pessoa = Pessoa('João', 23)
 pessoa.falar("politica")
 
