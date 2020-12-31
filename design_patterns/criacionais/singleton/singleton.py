@@ -11,9 +11,9 @@ class AppSettings:
             cls._instance = super().__new__(cls,*args,**kwargs)
         return cls._instance
 
-    def __init__(self):
-        self.tema = "tema"
-        self.font = "1px"
+    # def __init__(self):
+    #     self.tema = "tema"
+    #     self.font = "1px"
     
 if __name__ == "__main__":
     as1 = AppSettings()
